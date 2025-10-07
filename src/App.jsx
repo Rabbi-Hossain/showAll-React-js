@@ -4,7 +4,7 @@ import './App.css'
 import Players from './Component/Players/Players'
 function App() {
 
-  const playersPromise = fetch('/public/players.json').then(res=>res.json())
+  const playersPromise = fetch('/players.json').then(res=>res.json())
 
 
 
